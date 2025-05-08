@@ -116,10 +116,6 @@ export default function AboutPage() {
                   category: "Software",
                   skills: ["Excel", "SAP", "SolidWorks PDM", "MS Office", "Tortoise SVN"],
                 },
-                {
-                  category: "Soft Skills",
-                  skills: ["Leadership", "Organization", "Time Management", "Communication"],
-                },
               ].map((skillGroup, index) => (
                 <Card key={index} className="bg-zinc-800 border-zinc-700">
                   <CardContent className="p-6">

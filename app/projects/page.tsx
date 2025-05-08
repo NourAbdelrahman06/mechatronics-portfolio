@@ -37,7 +37,7 @@ export default function ProjectsPage() {
         demo: null,
       },
     },
-  ]
+  ];
 
   // Categories for filtering based on resume skills
   const categories = [
@@ -46,7 +46,7 @@ export default function ProjectsPage() {
     { id: "robotics", name: "Robotics" },
     { id: "mechanical", name: "Mechanical" },
     { id: "cad", name: "CAD" },
-  ]
+  ];
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -207,37 +207,8 @@ export default function ProjectsPage() {
               </ul>
             </CardContent>
           </Card>
-
-          <Card className="bg-zinc-800 border-zinc-700">
-            <CardHeader>
-              <div className="flex justify-between items-start">
-                <div>
-                  <CardTitle className="text-zinc-100">Software Development Intern</CardTitle>
-                  <CardDescription className="text-zinc-400">Tech Innovators Inc.</CardDescription>
-                </div>
-                <span className="text-purple-400 text-sm">05/2023 - 08/2023</span>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p className="text-zinc-300 mb-4">, Canada</p>
-              <ul className="list-disc list-inside text-zinc-400 space-y-2">
-                <li>
-                  Developed and deployed a web-based inventory management system using React, Node.js, and MongoDB, improving operational efficiency by 25%.
-                </li>
-                <li>
-                  Collaborated with a cross-functional team to design and implement RESTful APIs, ensuring seamless integration with front-end components.
-                </li>
-                <li>
-                  Conducted unit and integration testing using Jest and Postman, achieving 95% test coverage.
-                </li>
-                <li>
-                  Documented technical workflows and provided training sessions for end-users, enhancing system adoption and usability.
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
         </div>
       </section>
     </div>
-  )
+  );
 }
