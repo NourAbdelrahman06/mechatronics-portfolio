@@ -107,7 +107,7 @@ export default function Home() {
               title: "SketchBot",
               description: "A robot capable of creating outlines for engineering sketches using C++ and Robot C.",
               timeframe: "10/2024 - 11/2024",
-              image: "/placeholder.svg?height=400&width=600",
+              image: "/SketchBot full pic.jpg",
             },
             {
               title: "V8 Engine Assembly",
