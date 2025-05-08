@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       description: "A robot capable of creating outlines for engineering sketches using C++ and Robot C.",
       longDescription:
         "Designed and coded a robot capable of creating outlines for engineering sketches. The robot enables engineers to create outlines 3x faster and more accurate than by drawing by hand. The project included successful presentations to course instructors and a comprehensive project report with analysis and actionable recommendations for future improvements.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/SketchBot%20full%20pic.jpg",
       tags: ["software", "robotics"],
       technologies: ["C++", "PPT", "Word", "Excel", "RobotC"],
       timeframe: "10/2024 - 11/2024",

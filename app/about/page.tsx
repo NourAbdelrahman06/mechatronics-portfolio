@@ -144,15 +144,21 @@ export default function AboutPage() {
                   <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Arabic (Fluent)</span>
                 </div>
               </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-medium mb-2 text-zinc-100">Hobbies</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Skiing</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Rock Climbing</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Boxing</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Mountain Biking</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Camping</span>
+                </div>
+              </div>
               <div>
                 <h3 className="text-lg font-medium mb-2 text-zinc-100">Interests</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Rock climbing</span>
-                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Mountain Biking</span>
-                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Skiing</span>
-                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Camping</span>
                   <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Aerospace</span>
-                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Boxing</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Cars</span>
                   <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Motor sports</span>
                 </div>
               </div>
