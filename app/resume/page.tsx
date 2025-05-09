@@ -1,13 +1,30 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Download, Printer } from "lucide-react"
 
 export default function ResumePage() {
+  const handleDownload = () => {
+    // Create a link element
+    const link = document.createElement('a')
+    // Set the href to the PDF file
+    link.href = '/resume.pdf'
+    // Set the download attribute
+    link.download = 'Nour_Abdelrahman_Resume.pdf'
+    // Append to the document
+    document.body.appendChild(link)
+    // Trigger the click
+    link.click()
+    // Clean up
+    document.body.removeChild(link)
+  }
+
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-4xl font-bold text-zinc-100">Resume</h1>
         <div className="flex gap-4">
-          <Button className="bg-zinc-700 hover:bg-zinc-600">
+          <Button className="bg-zinc-700 hover:bg-zinc-600" onClick={handleDownload}>
             <Download className="mr-2 h-4 w-4" /> Download PDF
           </Button>
           <Button variant="outline" className="border-zinc-600 text-zinc-300 hover:bg-zinc-700">
