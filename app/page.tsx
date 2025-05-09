@@ -48,7 +48,7 @@ export default function Home() {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center">
             <div className="absolute inset-1 rounded-full bg-zinc-900 flex items-center justify-center">
               <img
-                src="/placeholder.svg?height=300&width=300"
+                src="/Professional Headshot of Confident Young Man.png"
                 alt="Profile"
                 className="rounded-full w-56 h-56 md:w-72 md:h-72 object-cover"
               />
