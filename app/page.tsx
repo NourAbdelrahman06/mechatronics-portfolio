@@ -1,6 +1,9 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Download, Github, Linkedin } from "lucide-react"
+import { motion } from "framer-motion"
 
 export default function Home() {
   return (
@@ -17,6 +20,40 @@ export default function Home() {
             design for manufacturing, and quality assurance. Skilled in C++, Python, and technical drawing standards.
             Trilingual and adaptable, with a strong drive for innovation and continuous improvement.
           </p>
+
+          {/* Achievement counters */}
+          <div className="flex items-center gap-16 pt-4">
+            <motion.div
+              className="text-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8 }}
+            >
+              <div className="text-2xl font-bold text-purple-400">3+</div>
+              <div className="text-sm text-zinc-400">Years of Work Experience</div>
+            </motion.div>
+
+            <motion.div
+              className="text-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0 }}
+            >
+              <div className="text-2xl font-bold text-purple-400">5+</div>
+              <div className="text-sm text-zinc-400">Projects</div>
+            </motion.div>
+
+            <motion.div
+              className="text-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.2 }}
+            >
+              <div className="text-2xl font-bold text-purple-400">20+</div>
+              <div className="text-sm text-zinc-400">Skills</div>
+            </motion.div>
+          </div>
+
           <div className="flex flex-wrap gap-4">
             <Button asChild className="bg-zinc-700 hover:bg-zinc-600">
               <Link href="/projects">
@@ -44,8 +81,15 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center">
+        <div className="md:w-1/2 flex justify-center relative">
+          {/* Animated background elements */}
+          <div className="absolute inset-0 -z-10">
+            <div className="absolute top-0 left-0 w-32 h-32 bg-purple-500/20 rounded-full blur-3xl animate-pulse" />
+            <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
+          </div>
+
+          {/* Profile picture with enhanced styling */}
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center animate-pulse">
             <div className="absolute inset-1 rounded-full bg-zinc-900 flex items-center justify-center">
               <img
                 src="/Professional Headshot of Confident Young Man.png"
