@@ -14,18 +14,18 @@ export default function AboutPage() {
             <div className="bg-zinc-800 rounded-lg p-6 border border-zinc-700 mb-6">
               <div className="mx-auto w-48 h-48 relative mb-6">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/Professional Headshot of Confident Young Man.png"
                   alt="Profile"
                   className="rounded-full object-cover w-full h-full"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-center mb-2 text-zinc-100">Nouredden Abdelrahman</h2>
+              <h2 className="text-2xl font-bold text-center mb-2 text-zinc-100">Nour Abdelrahman</h2>
               <p className="text-zinc-400 text-center mb-4">Mechatronics Engineering Student</p>
               <div className="flex justify-center gap-4 mb-6">
                 <Button asChild variant="outline" className="border-zinc-600 text-zinc-400 hover:bg-zinc-800">
-                  <Link href="/resume">
-                    <Download className="mr-2 h-4 w-4" /> Resume
-                  </Link>
+                  <a href="/resume.pdf" download>
+                    <Download className="mr-2 h-4 w-4" /> Download PDF
+                  </a>
                 </Button>
                 <Button asChild className="bg-zinc-700 hover:bg-zinc-600">
                   <Link href="mailto:nouredden.abdelrahman06@gmail.com">

@@ -9,7 +9,7 @@ export default function Home() {
       <section className="flex flex-col md:flex-row items-center justify-between py-16 gap-8">
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold text-zinc-100">
-            Hi, I am <span className="text-zinc-400">Nouredden Abdelrahman</span>
+            Hi, I am <span className="text-zinc-400">Nour Abdelrahman</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-zinc-300">Mechatronics Engineering Student</h2>
           <p className="text-lg text-zinc-400 max-w-xl">

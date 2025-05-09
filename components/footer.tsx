@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <span className="text-xl font-bold text-zinc-400">Nouredden Abdelrahman</span>
+              <span className="text-xl font-bold text-zinc-400">Nour Abdelrahman</span>
             </Link>
             <p className="text-zinc-400 mt-2 text-sm">Mechatronics Engineering Portfolio</p>
           </div>
