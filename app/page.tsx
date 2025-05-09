@@ -84,12 +84,13 @@ export default function Home() {
         <div className="md:w-1/2 flex justify-center relative">
           {/* Animated background elements */}
           <div className="absolute inset-0 -z-10">
-            <div className="absolute top-0 left-0 w-32 h-32 bg-purple-500/20 rounded-full blur-3xl animate-pulse" />
-            <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
+            <div className="absolute top-0 left-0 w-64 h-64 bg-purple-500/30 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
           </div>
 
           {/* Profile picture with enhanced styling */}
-          <div className="relative w-[32rem] h-[32rem] md:w-[40rem] md:h-[40rem] rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center animate-pulse">
+          <div className="relative w-[32rem] h-[32rem] md:w-[40rem] md:h-[40rem] rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center shadow-[0_0_50px_rgba(168,85,247,0.3)]">
             <div className="absolute inset-1 rounded-full bg-zinc-900 flex items-center justify-center">
               <img
                 src="/Professional Headshot of Confident Young Man.png"
