@@ -48,7 +48,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-zinc-400">Nouredden </span>
+            <span className="text-2xl font-bold text-zinc-400">Nour </span>
             <span className="text-2xl font-bold text-zinc-100">Abdelrahman</span>
           </Link>
 
