@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github, Download } from "lucide-react"
 import Link from "next/link"
 
 export default function ProjectsPage() {
@@ -18,7 +18,7 @@ export default function ProjectsPage() {
       technologies: ["C++", "PPT", "Word", "Excel", "RobotC"],
       timeframe: "10/2024 - 11/2024",
       links: {
-        github: "https://github.com",
+        report: "/SketchBot Report Portfolio.pdf",
         demo: null,
       },
     },
@@ -101,15 +101,15 @@ export default function ProjectsPage() {
                       </div>
                     </CardContent>
                     <CardFooter className="flex justify-between border-t border-zinc-700 pt-4">
-                      {project.links.github && (
+                      {project.links.report && (
                         <Button
                           asChild
                           variant="outline"
                           size="sm"
                           className="border-zinc-600 text-zinc-300 hover:bg-zinc-700"
                         >
-                          <Link href={project.links.github} target="_blank" rel="noopener noreferrer">
-                            <Github className="mr-2 h-4 w-4" /> Code
+                          <Link href={project.links.report} target="_blank" rel="noopener noreferrer">
+                            <Download className="mr-2 h-4 w-4" /> Download Report
                           </Link>
                         </Button>
                       )}
