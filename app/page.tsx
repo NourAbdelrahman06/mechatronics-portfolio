@@ -66,16 +66,16 @@ export default function Home() {
               </Link>
             </Button>
           </div>
-          <div className="flex gap-4 pt-4">
+          <div className="flex gap-12 pt-4">
             <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-800">
-                <Github className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-800 w-24 h-24">
+                <Github style={{ width: '90px', height: '90px', minWidth: '90px', minHeight: '90px' }} />
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
             <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-800">
-                <Linkedin className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-800 w-24 h-24">
+                <Linkedin style={{ width: '90px', height: '90px', minWidth: '90px', minHeight: '90px' }} />
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
@@ -89,12 +89,12 @@ export default function Home() {
           </div>
 
           {/* Profile picture with enhanced styling */}
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center animate-pulse">
+          <div className="relative w-[32rem] h-[32rem] md:w-[40rem] md:h-[40rem] rounded-full bg-gradient-to-br from-purple-500 to-zinc-700 flex items-center justify-center animate-pulse">
             <div className="absolute inset-1 rounded-full bg-zinc-900 flex items-center justify-center">
               <img
                 src="/Professional Headshot of Confident Young Man.png"
                 alt="Profile"
-                className="rounded-full w-56 h-56 md:w-72 md:h-72 object-cover"
+                className="rounded-full w-[28rem] h-[28rem] md:w-[36rem] md:h-[36rem] object-cover"
               />
             </div>
           </div>
