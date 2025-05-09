@@ -110,11 +110,11 @@ export default function Home() {
               image: "/SketchBot full pic.jpg",
             },
             {
-              title: "V8 Engine Assembly",
+              title: "V6 Engine Assembly",
               description:
-                "Complete V8 engine assembly in SolidWorks with simulated real-world engine motion and timing.",
+                "Complete V6 engine assembly in SolidWorks with simulated real-world engine motion and timing.",
               timeframe: "01/2025 - 03/2025",
-              image: "/placeholder.svg?height=400&width=600",
+              image: "/V6 Engine.png",
             },
           ].map((project, index) => (
             <div

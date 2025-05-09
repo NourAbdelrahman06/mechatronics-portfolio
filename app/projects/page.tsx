@@ -23,12 +23,12 @@ export default function ProjectsPage() {
       },
     },
     {
-      id: "v8-engine",
-      title: "V8 Engine Assembly and Simulation",
-      description: "Complete V8 engine assembly in SolidWorks with simulated real-world engine motion and timing.",
+      id: "v6-engine",
+      title: "V6 Engine Assembly and Simulation",
+      description: "Complete V6 engine assembly in SolidWorks with simulated real-world engine motion and timing.",
       longDescription:
-        "Designed and modeled a complete V8 engine assembly in SolidWorks, including all individual components such as pistons, crankshaft, camshafts, and valves. Applied mechanical constraints using advanced mates to accurately simulate real-world engine motion and timing.",
-      image: "/placeholder.svg?height=400&width=600",
+        "Designed and modeled a complete V6 engine assembly in SolidWorks, including all individual components such as pistons, crankshaft, camshafts, and valves. Applied mechanical constraints using advanced mates to accurately simulate real-world engine motion and timing.",
+      image: "/V6 Engine.png",
       tags: ["mechanical", "cad"],
       technologies: ["SolidWorks"],
       timeframe: "01/2025 - 03/2025",
