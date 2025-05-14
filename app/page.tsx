@@ -16,9 +16,11 @@ export default function Home() {
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-zinc-300">Mechatronics Engineering Student</h2>
           <p className="text-lg text-zinc-400 max-w-xl">
-            Motivated Mechatronics Engineering student at the University of Waterloo with hands-on experience in CAD,
-            design for manufacturing, and quality assurance. Skilled in C++, Python, and technical drawing standards.
-            Trilingual and adaptable, with a strong drive for innovation and continuous improvement.
+            Motivated Mechatronics Engineering student at the University of Waterloo with strong 
+            experience in CAD, and design for manufacturing. Proficient in C++, Python, with 
+            working knowledge of FEA and PCB design. Trilingual and adaptable, aiming to 
+            contribute to roles in mechanical design, manufacturing, automation or aerospace 
+            engineering.
           </p>
 
           {/* Achievement counters */}
