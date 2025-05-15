@@ -9,7 +9,7 @@ export default function ResumePage() {
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-4xl font-bold text-zinc-100">Resume</h1>
         <Button asChild variant="outline" className="border-zinc-600 text-zinc-400 hover:bg-zinc-800">
-          <a href="/portfolio resume.pdf" download>
+          <a href="/Nour Abdelrahman Resume.pdf" download>
             Download PDF <Download className="ml-2 h-4 w-4" />
           </a>
         </Button>
@@ -17,7 +17,7 @@ export default function ResumePage() {
       
       <div className="w-full h-[calc(100vh-200px)] rounded-lg overflow-hidden border border-zinc-700">
         <iframe
-          src="/portfolio resume.pdf"
+          src="/Nour Abdelrahman Resume.pdf"
           className="w-full h-full"
           title="Resume PDF"
         />
