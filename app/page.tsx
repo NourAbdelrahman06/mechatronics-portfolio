@@ -193,51 +193,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* Experience Preview */}
-      <section className="py-16">
-        <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold text-zinc-100">Experience</h2>
-          <Button asChild variant="ghost" className="text-purple-400 hover:text-purple-300">
-            <Link href="/projects#experience">
-              View All <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[
-            {
-              title: "Manufacturing Engineering Intern",
-              company: "Lincoln Electric, Python X",
-              location: "Waterdown, Canada",
-              timeframe: "01/2025 - 05/2025",
-              description:
-                "Created engineering drawings and assemblies in SolidWorks and AutoCAD, performed analysis calculations, and collaborated with senior engineers.",
-            },
-            {
-              title: "Quality Technician Intern",
-              company: "The Home Depot Store Support Center",
-              location: "Bolton, Canada",
-              timeframe: "06/2024 - 09/2024",
-              description:
-                "Conducted quality inspections on products, helped uncover production problems, and performed in-depth measurements and tests.",
-            },
-          ].map((experience, index) => (
-            <div
-              key={index}
-              className="bg-zinc-800 rounded-lg overflow-hidden border border-zinc-700 hover:border-zinc-500 transition-all p-6"
-            >
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl font-semibold text-zinc-100">{experience.title}</h3>
-                <span className="text-purple-400 text-sm">{experience.timeframe}</span>
-              </div>
-              <p className="text-zinc-300 mb-2">{experience.company}</p>
-              <p className="text-zinc-400 mb-4">{experience.location}</p>
-              <p className="text-zinc-400">{experience.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
   )
 }
