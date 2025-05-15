@@ -107,8 +107,12 @@ export default function Home() {
 
       {/* AI Search Section */}
       <section className="py-8">
-        <h2 className="text-3xl font-bold mb-8 text-zinc-100">Ask Me Anything</h2>
-        <AISearch />
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 text-zinc-100">Ask Me Anything</h2>
+          <div className="w-full">
+            <AISearch />
+          </div>
+        </div>
       </section>
 
       {/* Featured Skills */}
@@ -117,20 +121,19 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
-              title: "CAD & Modelling",
-              description: "SolidWorks (CSWA), AutoCAD, Altium Designer, technical drawing standards, GD&T.",
+              title: "CAD & Design",
+              description: "SolidWorks (CSWA), AutoCAD, Altium Designer, technical drawing standards, GD&T, ECR processes, PDM systems, FEA simulations.",
               icon: "🔧",
             },
             {
-              title: "Programming",
-              description: "C++, Python, RobotC, Excel, SAP, SolidWorks PDM, MS Office, Tortoise SVN.",
+              title: "Programming & Software",
+              description: "C++, Python, RobotC, Excel, SAP, SolidWorks PDM, MS Office, Tortoise SVN, PCB design, FEA analysis.",
               icon: "💻",
             },
             {
-              title: "Soft Skills",
-              description:
-                "Leadership, Organization, Time Management, Communication, Attention to Detail, Critical Thinking.",
-              icon: "🧠",
+              title: "Manufacturing & Quality",
+              description: "Design for manufacturing, quality assurance, torque analysis, tolerance analysis, force analysis, weldments, sheet metal fabrication.",
+              icon: "🏭",
             },
           ].map((skill, index) => (
             <div

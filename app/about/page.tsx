@@ -102,34 +102,45 @@ export default function AboutPage() {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-zinc-100">Technical Skills</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                {
-                  category: "Programming Languages",
-                  skills: ["C++", "Python", "RobotC"],
-                },
-                {
-                  category: "CAD & Modelling",
-                  skills: ["SolidWorks (CSWA)", "AutoCAD", "Altium Designer"],
-                },
-                {
-                  category: "Software",
-                  skills: ["Excel", "SAP", "SolidWorks PDM", "MS Office", "Tortoise SVN"],
-                },
-              ].map((skillGroup, index) => (
-                <Card key={index} className="bg-zinc-800 border-zinc-700">
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-medium mb-3 text-zinc-100">{skillGroup.category}</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {skillGroup.skills.map((skill, idx) => (
-                        <span key={idx} className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+            <div className="bg-zinc-800 rounded-lg p-6 border border-zinc-700">
+              <div className="mb-4">
+                <h3 className="text-lg font-medium mb-2 text-zinc-100">CAD & Design</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">SolidWorks (CSWA)</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">AutoCAD</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Altium Designer</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">GD&T</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">ECR Processes</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">PDM Systems</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">FEA Simulations</span>
+                </div>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-medium mb-2 text-zinc-100">Programming & Software</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">C++</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Python</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">RobotC</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Excel</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">SAP</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">SolidWorks PDM</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">MS Office</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">PCB Design</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">FEA Analysis</span>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-lg font-medium mb-2 text-zinc-100">Manufacturing & Quality</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Design for Manufacturing</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Quality Assurance</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Torque Analysis</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Tolerance Analysis</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Force Analysis</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Weldments</span>
+                  <span className="bg-zinc-700 text-zinc-300 px-3 py-1 rounded-full text-sm">Sheet Metal Fabrication</span>
+                </div>
+              </div>
             </div>
           </section>
 
