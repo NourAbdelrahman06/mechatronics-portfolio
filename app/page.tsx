@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Download, Github, Linkedin } from "lucide-react"
 import { motion } from "framer-motion"
+import AISearch from "@/components/AISearch"
 
 export default function Home() {
   return (
@@ -102,6 +103,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* AI Search Section */}
+      <section className="py-8">
+        <h2 className="text-3xl font-bold mb-8 text-zinc-100">Ask Me Anything</h2>
+        <AISearch />
       </section>
 
       {/* Featured Skills */}
